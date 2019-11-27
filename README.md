@@ -10,6 +10,15 @@ SOURCE FILES:
 TreeNode.h, BST.h, Database.h, Faculty.h, Student.h, Action.h
 Database.cpp, Faculty.cpp, Student.cpp, main.cpp, Action.cpp
 
+IMPORTANT NOTE:
+For this program to work (for some reason I cannot figure out) you must
+1) compile the header files (g++ *.h)
+2) compile the cpp files (g++ *.cpp)
+3) run (./a.out)
+
+Compiling *.cpp and then running DOES NOT WORK 
+this is probably beacuse of the "#pragma once," however I do not know how to fix this
+
 TEXT FILE FORMATTING:
 studentTable.txt must format entries like this:
 StudentID:Name:Level:Major:GPA:AdvisorID
