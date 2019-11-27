@@ -19,7 +19,7 @@ For this program to work (for some reason I cannot figure out) you must
 Compiling *.cpp and then running DOES NOT WORK 
 this is probably beacuse of the "#pragma once," however I do not know how to fix this
 
-TEXT FILE FORMATTING:
+TEXT FILE AND ENTRY FORMATTING:
 studentTable.txt must format entries like this:
 StudentID:Name:Level:Major:GPA:AdvisorID
 
@@ -48,7 +48,7 @@ to a new advisor, the user must do that
 
 SERILIZATION FILE:
 At the end of the program the student tree is searlized to searlizedStudentFile.txt
-At the end of the program the faculty tree is searlized to facultyStudentFile.txt
+At the end of the program the faculty tree is searlized to facultyFacultyFile.txt
 
 REFRENCES:
 Some refrences are listed in the comments
